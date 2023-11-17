@@ -22,6 +22,7 @@ def click_dropdown_option(dropdown_id, option_text):
     Args:
         dropdown_id (str): El ID del elemento de menú desplegable.
         option_text (str): El texto de la opción que se desea seleccionar dentro del menú desplegable.
+        
     """
     dropdown = wait.until(EC.element_to_be_clickable((By.ID, dropdown_id)))
     dropdown.click()
@@ -37,6 +38,7 @@ def get_options(dropdown_id):
 
     Returns:
         list: Una lista de cadenas de texto que representa las opciones disponibles en el menú desplegable.
+        
     """
     dropdown = wait.until(EC.element_to_be_clickable((By.ID, dropdown_id)))
     dropdown.click()
