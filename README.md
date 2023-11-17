@@ -10,6 +10,8 @@ This Python script utilizes the Selenium library to automate the extraction of g
   - selenium
   - geckodriver (for Firefox browser)
 
+You can download the last geckodriver version from https://github.com/mozilla/geckodriver/releases
+
 ## Customization
 
 You can customize the script to your needs by adjusting the grain options in the *grano_options* list in the script.
