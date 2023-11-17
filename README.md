@@ -15,5 +15,5 @@ This Python script utilizes the Selenium library to automate the extraction of g
 Use PowerShell to navigate to the directory where you have your script.py and execute it as following:
 
 ```python
-python script.py
+python cotrisa_scraper.py
 ```
